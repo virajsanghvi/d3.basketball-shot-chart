@@ -16,7 +16,8 @@ Currently customizable:
 - Include ```hexbin.js``` [d3.hexbin](FIXME)
 - Include ```d3.chart.js``` - [d3.chart](FIXME)
 - Include ```d3.chart.defaults.js``` [d3.chart.defaults](FIXME)
-- Include ```d3.basketbal-shot-chart.js```
+- Include ```d3.basketball-shot-chart.js```
+- Include ```d3.basketball-shot-chart.css``` (or include the sass file)
 
 ## Examples
 
