@@ -13,9 +13,9 @@ Currently customizable:
 ## Setup
 
 - Include ```d3.js```
-- Include ```hexbin.js``` [d3.hexbin](FIXME)
-- Include ```d3.chart.js``` - [d3.chart](FIXME)
-- Include ```d3.chart.defaults.js``` [d3.chart.defaults](FIXME)
+- Include ```hexbin.js``` [d3.hexbin](https://github.com/d3/d3-plugins/tree/master/hexbin)
+- Include ```d3.chart.js``` - [d3.chart](http://misoproject.com/d3-chart/)
+- Include ```d3.chart.defaults.js``` [d3.chart.defaults](https://github.com/virajsanghvi/d3.chart.defaults)
 - Include ```d3.basketball-shot-chart.js```
 - Include ```d3.basketball-shot-chart.css``` (or include the sass file)
 
