@@ -85,6 +85,6 @@ These are all defined in the code, and I recommend looking there for more inform
 - threePointRadius: distance of three point line from basket (ft) (default: 23.75)
 - threePointSideRadius: distance of corner three point line from basket (ft) (default: 22)
 - title: title of chart (default: 'Shot chart')
-- translateX: method to determine x position of a bin on the court (default: flips to match y-axis flip)
+- translateX: method to determine x position of a bin on the court (default: x value)
 - translateY: method to determine y position of a bin on the court (default: flips y axis to opposite side of court)
 - width: width of svg (default: 500)

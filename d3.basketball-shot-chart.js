@@ -428,7 +428,7 @@
     // title of chart
     title: 'Shot chart',
     // method to determine x position of a bin on the court
-    translateX: function (d) { return this._courtWidth - d.x; },
+    translateX: function (d) { return d.x; },
     // method to determine y position of a bin on the court
     translateY: function (d) { return this._visibleCourtLength - d.y; },
     // width of svg
