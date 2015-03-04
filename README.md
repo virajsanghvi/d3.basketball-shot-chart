@@ -13,7 +13,7 @@ Currently customizable:
 ## Setup
 
 - Include ```d3.js```
-- Include ```hexbin.js``` [d3.hexbin](https://github.com/d3/d3-plugins/tree/master/hexbin)
+- Include ```hexbin.js``` [d3.hexbin](https://github.com/virajsanghvi/d3-plugins/tree/master/hexbin) - NOTE: this is a fork
 - Include ```d3.chart.js``` - [d3.chart](http://misoproject.com/d3-chart/)
 - Include ```d3.chart.defaults.js``` [d3.chart.defaults](https://github.com/virajsanghvi/d3.chart.defaults)
 - Include ```d3.basketball-shot-chart.js```
@@ -22,6 +22,8 @@ Currently customizable:
 ## Examples
 
 This library is currently used to generate the shot charts at [tothemean](http://tothemean.com/tools/shot-charts), and there's a [blog post that walks through using this chart](FIXME).
+
+If you clone the repo, you'll also find a simple example in the ```example``` directory.
 
 ## To use:
 
