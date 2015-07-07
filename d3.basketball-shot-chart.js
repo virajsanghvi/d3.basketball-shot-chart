@@ -179,19 +179,16 @@
         .attr("x", colorXMid)             
         .attr("y", colorYStart - largestHexagonRadius * 2)
         .attr("text-anchor", "middle")  
-        .attr("dominant-baseline", "central")  
         .text(this._colorLegendTitle);
       colorLegend.append("text")
         .attr("x", colorXStart)             
         .attr("y", colorYStart)
         .attr("text-anchor", "end")  
-        .attr("dominant-baseline", "middle")  
         .text(this._colorLegendStartLabel); 
       colorLegend.append("text")
         .attr("x", colorXStart + heatRange.length * 2 * largestHexagonRadius)             
         .attr("y", colorYStart)
         .attr("text-anchor", "start")  
-        .attr("dominant-baseline", "middle")  
         .text(this._colorLegendEndLabel);  
       colorLegend.selectAll('path').data(heatRange)
         .enter()
@@ -221,13 +218,11 @@
         .attr("x", sizeXMid)             
         .attr("y", sizeYStart - largestHexagonRadius * 2)
         .attr("text-anchor", "middle")  
-        .attr("dominant-baseline", "central")  
         .text(this._sizeLegendTitle);
       sizeLegend.append("text")
         .attr("x", sizeXStart)             
         .attr("y", sizeYStart)
         .attr("text-anchor", "end")  
-        .attr("dominant-baseline", "middle")  
         .text(this._sizeLegendSmallLabel);
       sizeLegend.selectAll('path').data(sizeRange)
         .enter()
@@ -244,7 +239,6 @@
         .attr("x", sizeXStart)
         .attr("y", sizeYStart)
         .attr("text-anchor", "start")  
-        .attr("dominant-baseline", "middle")  
         .text(this._sizeLegendLargeLabel); 
     },
 
